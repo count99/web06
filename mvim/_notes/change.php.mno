@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:m_seq;datatype:int,name:m_mvim;datatype:blob,name:m_view;datatype:int,name:m_del;datatype:int" />
+</info>
