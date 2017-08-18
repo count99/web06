@@ -5,9 +5,9 @@
  * Date: 2017/8/18
  * Time: 下午 01:48
  */
- if(isset($_POST['t_seq']))
+ if(isset($row_Recordset1['t_seq']))
  {
-     $t_seq=$_POST['t_seq'];
+     $t_seq=$row_Recordset1['t_seq'];
  }
 
 $conn = new mysqli("localhost", "root", "12345678", "db06");
@@ -22,7 +22,7 @@ if(isset($_FILES['pic']['name']))
     $result = $conn->query($sql);
     $result_all = $result->fetch_all();
     copy($_FILES['pic']['tmp_name'], "images/".$result_all[0][1]);
-//    echo"<script>self.location.href='admin.php?do=admin&redo=title';</script>";
+    echo"<script>self.location.href='admin.php?do=admin&redo=title';</script>";
 }
 ?>
 <p class="t cent botli">新增標題區圖片</p>

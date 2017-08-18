@@ -45,7 +45,7 @@ $row_Recordset1 = mysql_fetch_assoc($Recordset1);
 				?>
             <label for="del"></label></td>
    	        <td align="center">
-                <button formmethod="POST" name="t_seq" formaction="admin.php?do=admin&redo=title_change" value="<?php echo $row_Recordset1['t_seq'];?>" onclick="self.location.href='admin.php?do=admin&redo=title_change'">更新圖片</button></td>
+                <button name="t_seq" formmethod="POST" formaction="admin.php?do=admin&redo=title_change" value="<?php echo $row_Recordset1['t_seq'];?>" onclick="self.location.href='admin.php?do=admin&redo=title_change'">更新圖片</button></td>
   	      </tr>
     	    <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
       </tbody></table>
