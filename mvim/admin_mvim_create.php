@@ -1,4 +1,4 @@
-<?php require_once('../Connections/db06.php'); ?>
+<?php require_once('Connections/db06.php'); ?>
 <?php
 if (!function_exists("GetSQLValueString")) {
 function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
@@ -40,27 +40,14 @@ if (isset($_SERVER['QUERY_STRING'])) {
 
 if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form")) {
 	if(isset($_FILES['pic']['tmp_name'])){
-		$colname_Recordset1 = "-1";
-		if (isset($_POST[''])) {
-  		$colname_Recordset1 = $_POST['m_seq'];
 		mysql_select_db($database_db06, $db06);
-		$query_Recordset1 = sprintf("SELECT * FROM mvim WHERE a_seq = %s", GetSQLValueString($colname_Recordset1, "int"));
-		$Recordset1 = mysql_query($query_Recordset1, $db06) or die(mysql_error());
-		$row_Recordset1 = mysql_fetch_assoc($Recordset1);
-		unlink("images/".$Recordset1['mvim']);
-  	$updateSQL = sprintf("UPDATE mvim SET m_mvim=%s WHERE m_seq=%s",
-    GetSQLValueString($_FILES['pic']['name'], "text"),
-    GetSQLValueString($_POST['hiddenField'], "int"));
+		move_uploaded_file($_FILES['pic']['tmp_name'], "images/".$_FILES['pic']['name']);
+  	$updateSQL = sprintf("INSERT INTO mvim (m_mvim) VALUES (%s)",
+    GetSQLValueString($_FILES['pic']['name'], "text"));
 
 	mysql_select_db($database_db06, $db06);
 	$Result1 = mysql_query($updateSQL, $db06) or die(mysql_error());}
-}
-  $updateGoTo = "../admin.php";
-  if (isset($_SERVER['QUERY_STRING'])) {
-    $updateGoTo .= (strpos($updateGoTo, '?')) ? "&" : "?";
-    $updateGoTo .= $_SERVER['QUERY_STRING'];
-  }
-  header(sprintf("Location: %s", $updateGoTo));
+  header("Location:admin.php?do=admin&redo=mvim");
 }
 ?>
 <p class="t cent botli">新增動畫圖片</p>
@@ -86,6 +73,3 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form")) {
           <input type="hidden" name="MM_insert" value="form" />
           <input type="hidden" name="MM_update" value="form" />
 </form>
-<?php
-mysql_free_result($Recordset1);
-?>

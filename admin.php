@@ -60,9 +60,6 @@
         <?php 
 	if(!empty($_GET['do'])){
 		switch($_GET['redo']){
-			case "title":
-				$page = include("title_admin.php");
-				break;
 			case "admin":
 				$page = include("user/admin_admin.php");
 				break;
@@ -96,12 +93,30 @@
 			case "admin_mvim_change":
 				$page = include("mvim/change.php");
 				break;
+			case "image":
+				$page = include("img/admin.php");
+				break;
+			case "img_create":
+				$page = include("img/create.php");
+				break;
+			case "img_change":
+				$page = include("img/change.php");
+				break;
+			case "title":
+				$page = include("title/admin.php");
+				break;
+			case "title_add":
+				$page = include("title/add.php");
+				break;
+			case "title_change":
+				$page = include("title/change.php");
+				break;
 			default:
-				$page = include("title_admin.php");
+				$page = include("title/admin.php");
 				break;
 		}}
 	else{
-		$page = include("title_admin.php");
+		$page = include("title/admin.php");
 	}
 echo $page;
 ?>

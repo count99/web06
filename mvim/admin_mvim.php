@@ -84,7 +84,7 @@ if ((isset($_POST["MM_update"])) && ($_POST["MM_update"] == "form")) {
                 <?php $delete[$ind]=0 ?>
                 <input name="hiddenField[<?php echo $ind;?>]" type="hidden" id="hiddenField" value="<?php echo $row_Recordset1['m_seq']; ?>" />
                 <label for="delete"></label></td>
-              <td align="center"><button formmethod="get" name="m_seq" formaction="admin.php?do=admin&redo=admin_mvim_change" onclick="self.location.href='admin.php?do=admin&redo=admin_mvim_change'" value="<?php echo $row_Recordset1['m_seq'];?>">更換動畫</button></td>
+              <td align="center"><button formmethod="POST" name="m_seq" formaction="admin.php?do=admin&redo=admin_mvim_change" onclick="self.location.href='admin.php?do=admin&redo=admin_mvim_change'" value="<?php echo $row_Recordset1['m_seq'];?>">更換動畫</button></td>
             </tr>
             <?php
             $ind++; 

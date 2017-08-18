@@ -31,6 +31,8 @@ function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDe
 }
 }
 
+
+
 $editFormAction = $_SERVER['PHP_SELF'];
 if (isset($_SERVER['QUERY_STRING'])) {
   $editFormAction .= "?" . htmlentities($_SERVER['QUERY_STRING']);
@@ -38,17 +40,22 @@ if (isset($_SERVER['QUERY_STRING'])) {
 
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form")) {
 	if(isset($_FILES['pic']['tmp_name'])){
-  $insertSQL = sprintf("INSERT INTO mvim (m_mvim) VALUES (%s)",
-                       GetSQLValueString($_FILES['pic']['name'], "text"));
 
-  mysql_select_db($database_db06, $db06);
-  $Result1 = mysql_query($insertSQL, $db06) or die(mysql_error());
-  move_uploaded_file($_FILES['pic']['tmp_name'], "C:/xampp/htdocs/web06/images/".$_FILES['pic']['name']);
-	}
-  $insertGoTo = "";
-  header("Location:admin.php?do=admin&redo=mvim");
+    $colname_Recordset1 = "-1";
+if (isset($_POST['hiddenField'])) {
+  $colname_Recordset1 = $_POST['hiddenField'];
+  $_SESSION["lo"]=$_POST['hiddenField'];
 }
+mysql_select_db($database_db06, $db06);
+$query_Recordset1 = sprintf("SELECT * FROM images WHERE m_seq = %s and m_del=0", GetSQLValueString($colname_Recordset1, "int"));
+$Recordset1 = mysql_query($query_Recordset1, $db06) or die(mysql_error());
+$row_Recordset1 = mysql_fetch_assoc($Recordset1);
+  copy($_FILES['pic']['tmp_name'], "C:/xampp/htdocs/web06/images/".$row_Recordset1['m_img']);
+  echo "<script>self.location.href='admin.php?do=admin&redo=image'</script>";
+}}
 ?>
+
+
 <p class="t cent botli">新增動畫圖片</p>
         <form method="POST" action="<?php echo $editFormAction; ?>" enctype="multipart/form-data" name="form">
           <table width="464" border="0">
@@ -64,9 +71,14 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form")) {
               <tr>
                 <td width="200px"></td>
                 <td class="cent"><input type="submit" value="修改">
-                  <input type="reset" value="重置"></td>
+                  <input type="reset" value="重置">
+                  <input name="hiddenField" type="hidden" id="hiddenField" value="<?php if(isset($_POST['m_seq'])){echo $_POST['m_seq'];}
+                  else{echo $_SESSION["lo"];} ?>" /></td>
               </tr>
             </tbody>
           </table>
           <input type="hidden" name="MM_insert" value="form" />
 </form>
+<?php
+@mysql_free_result($Recordset1);
+?>
