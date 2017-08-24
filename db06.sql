@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機: 127.0.0.1
--- 產生時間： 2017-08-11 08:35:42
+-- 產生時間： 2017-08-24 10:25:35
 -- 伺服器版本: 10.1.25-MariaDB
 -- PHP 版本： 5.6.31
 
@@ -64,6 +64,26 @@ INSERT INTO `footer` (`f_seq`, `f_title`) VALUES
 -- --------------------------------------------------------
 
 --
+-- 資料表結構 `images`
+--
+
+CREATE TABLE `images` (
+  `m_seq` int(11) NOT NULL,
+  `m_img` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `m_view` int(1) DEFAULT '0',
+  `m_del` int(1) NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 資料表的匯出資料 `images`
+--
+
+INSERT INTO `images` (`m_seq`, `m_img`, `m_view`, `m_del`) VALUES
+(3, '01C05.gif', 0, 0);
+
+-- --------------------------------------------------------
+
+--
 -- 資料表結構 `member`
 --
 
@@ -88,8 +108,7 @@ INSERT INTO `member` (`m_seq`, `m_id`, `m_password`, `m_delete`) VALUES
 (8, '44', '44', 0),
 (9, '55', '55', 0),
 (10, '4rgh', '444555th', 0),
-(11, 'qefwe', 'dsftht', 0),
-(12, 'egt', 'eg', 0);
+(11, 'qefwe', 'dsftht', 0);
 
 -- --------------------------------------------------------
 
@@ -109,10 +128,11 @@ CREATE TABLE `mvim` (
 --
 
 INSERT INTO `mvim` (`m_seq`, `m_mvim`, `m_view`, `m_del`) VALUES
-(4, '01C03.swf', NULL, 0),
-(5, '01C04.swf', NULL, 0),
-(6, '01C02.swf', 0, 0),
-(7, '01C05.gif', 0, 0);
+(1, '01C01.swf', NULL, 0),
+(2, '01D08.jpg', NULL, 0),
+(3, '01C03.swf', NULL, 1),
+(4, '01C04.swf', NULL, 0),
+(5, '01C03.swf', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -145,6 +165,30 @@ INSERT INTO `news` (`n_seq`, `n_title`, `n_view`, `n_del`) VALUES
 -- --------------------------------------------------------
 
 --
+-- 資料表結構 `titles`
+--
+
+CREATE TABLE `titles` (
+  `t_seq` int(11) NOT NULL,
+  `t_til` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `t_sub` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `t_view` int(1) NOT NULL,
+  `t_del` int(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- 資料表的匯出資料 `titles`
+--
+
+INSERT INTO `titles` (`t_seq`, `t_til`, `t_sub`, `t_view`, `t_del`) VALUES
+(1, '01B01.jpg', '1111118888', 0, 0),
+(2, '01B02.jpg', 'ASDdaD', 1, 0),
+(3, '01B03.jpg', '34tr3', 0, 0),
+(4, '01B04.jpg', 'sdvsv', 0, 0);
+
+-- --------------------------------------------------------
+
+--
 -- 資料表結構 `total`
 --
 
@@ -158,7 +202,7 @@ CREATE TABLE `total` (
 --
 
 INSERT INTO `total` (`t_seq`, `t_total`) VALUES
-(1, 13);
+(1, 22);
 
 --
 -- 已匯出資料表的索引
@@ -177,6 +221,12 @@ ALTER TABLE `footer`
   ADD PRIMARY KEY (`f_seq`);
 
 --
+-- 資料表索引 `images`
+--
+ALTER TABLE `images`
+  ADD PRIMARY KEY (`m_seq`);
+
+--
 -- 資料表索引 `member`
 --
 ALTER TABLE `member`
@@ -193,6 +243,12 @@ ALTER TABLE `mvim`
 --
 ALTER TABLE `news`
   ADD PRIMARY KEY (`n_seq`);
+
+--
+-- 資料表索引 `titles`
+--
+ALTER TABLE `titles`
+  ADD PRIMARY KEY (`t_seq`);
 
 --
 -- 資料表索引 `total`
@@ -215,20 +271,30 @@ ALTER TABLE `ad`
 ALTER TABLE `footer`
   MODIFY `f_seq` int(1) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
+-- 使用資料表 AUTO_INCREMENT `images`
+--
+ALTER TABLE `images`
+  MODIFY `m_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+--
 -- 使用資料表 AUTO_INCREMENT `member`
 --
 ALTER TABLE `member`
-  MODIFY `m_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `m_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- 使用資料表 AUTO_INCREMENT `mvim`
 --
 ALTER TABLE `mvim`
-  MODIFY `m_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `m_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- 使用資料表 AUTO_INCREMENT `news`
 --
 ALTER TABLE `news`
   MODIFY `n_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+--
+-- 使用資料表 AUTO_INCREMENT `titles`
+--
+ALTER TABLE `titles`
+  MODIFY `t_seq` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- 使用資料表 AUTO_INCREMENT `total`
 --
