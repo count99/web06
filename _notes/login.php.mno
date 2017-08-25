@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <info>
-	<infoitem key="UD_Recordset1" value="name:m_seq;datatype:int,name:m_id;datatype:string,name:m_password;datatype:string,name:m_delete;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:t_seq;datatype:int,name:t_til;datatype:blob,name:t_sub;datatype:blob,name:t_view;datatype:int,name:t_del;datatype:int" />
 </info>

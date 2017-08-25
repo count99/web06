@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17fdafff-342c-42ec-8f2d-b08a67d85ad1" name="Default" comment="" />
+    <list default="true" id="17fdafff-342c-42ec-8f2d-b08a67d85ad1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Connections/DBhelper.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Connections/db.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,66 +53,33 @@
     <favorites_list name="web06" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="change.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvim/change.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-              <folding>
-                <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-                <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_mvim.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvim/admin_mvim.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1806">
-              <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
-              <folding>
-                <marker date="1503025529155" expanded="true" signature="1077:1109" ph="SELECT * FRO... mvim" />
-                <marker date="1503025529155" expanded="true" signature="1591:1641" ph="UPDATE mvim " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="483">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding>
-                <marker date="1502255827687" expanded="true" signature="2376:2399" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/title/change.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <marker date="1503046180536" expanded="true" signature="353:398" ph="select * fro... titles" />
-                <marker date="1503046180536" expanded="true" signature="891:905" ph="..." />
-                <marker date="1503046180536" expanded="true" signature="1122:1149" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/change.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="66" />
-              <folding>
-                <marker date="1502682318372" expanded="true" signature="1506:1555" ph="SELECT * FRO... images" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1503649598899" expanded="true" signature="1140:1145" ph="'" />
+                <marker date="1503649598899" expanded="true" signature="1261:1761" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="1307:1478" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="1579:1744" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="1617:1717" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="2053:2105" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="2363:2419" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="2446:2493" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="2515:2538" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="4552:4877" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="4605:4739" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="4801:4836" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="5010:5180" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="5275:5786" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="5370:5759" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="5447:5713" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="5638:5704" ph="{...}" />
+                <marker date="1503649598899" expanded="true" signature="6022:6158" ph="..." />
+                <marker date="1503649598899" expanded="true" signature="6082:6134" ph="..." />
               </folding>
             </state>
           </provider>
@@ -119,6 +93,33 @@
               <folding>
                 <marker date="1503045570467" expanded="true" signature="293:329" ph="SELECT * FRO... titles" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBhelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Connections/DBhelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding>
+                <marker date="1503649811348" expanded="true" signature="300:313" ph="SELECT * FRO... " />
+                <marker date="1503649811348" expanded="true" signature="300:314" ph="SELECT * FRO... ${$result = $this-&gt;query($sql)}" />
+                <marker date="1503649811348" expanded="true" signature="473:487" ph="SELECT * FRO... ${$table}" />
+                <marker date="1503649811348" expanded="true" signature="473:503" ph="SELECT * FRO... ${$table}" />
+                <marker date="1503649811348" expanded="true" signature="473:504" ph="SELECT * FRO... ${$table}" />
+                <marker date="1503649811348" expanded="true" signature="473:505" ph="SELECT * FRO... ${$table}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db06.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Connections/db06.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,6 +146,9 @@
         <option value="$PROJECT_DIR$/test_ajax.php" />
         <option value="$PROJECT_DIR$/title/admin.php" />
         <option value="$PROJECT_DIR$/title/change.php" />
+        <option value="$PROJECT_DIR$/Connections/db.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Connections/DBhelper.php" />
       </list>
     </option>
   </component>
@@ -184,7 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,7 +220,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,11 +241,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.admin.php">
+  <component name="RunManager" selected="JavaScript Debug.index.php">
     <configuration name="admin.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/web06/title/admin.php" />
+    <configuration name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/index.php" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.admin.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.admin.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.admin.php" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +271,8 @@
       <workItem from="1502842888623" duration="216000" />
       <workItem from="1503018771840" duration="21786000" />
       <workItem from="1503366517743" duration="69000" />
+      <workItem from="1503620788900" duration="980000" />
+      <workItem from="1503647376433" duration="2711000" />
     </task>
     <task id="LOCAL-00001" summary="almost">
       <created>1503042917150</created>
@@ -287,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23095000" />
+    <option name="totallyTimeSpent" value="26786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,22 +313,22 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14712153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945629" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -332,7 +344,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -341,10 +360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -352,10 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
           <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
-          <folding>
-            <marker date="1503025529155" expanded="true" signature="1077:1109" ph="SELECT * FRO... mvim" />
-            <marker date="1503025529155" expanded="true" signature="1591:1641" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +375,98 @@
         <state relative-caret-position="966">
           <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
           <folding>
-            <marker date="1502255827687" expanded="true" signature="2376:2399" ph="..." />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1503649598899" expanded="true" signature="1140:1145" ph="'" />
+            <marker date="1503649598899" expanded="true" signature="1261:1761" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1307:1478" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1579:1744" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1617:1717" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2053:2105" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2363:2419" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2446:2493" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2515:2538" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4552:4877" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4605:4739" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="4801:4836" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5010:5180" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5275:5786" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5370:5759" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5447:5713" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5638:5704" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="6022:6158" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="6082:6134" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="70" lean-forward="false" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="81" />
+          <folding>
+            <marker date="1503045570467" expanded="true" signature="293:329" ph="SELECT * FRO... titles" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <marker date="1503046180536" expanded="true" signature="353:398" ph="select * fro... titles" />
+            <marker date="1503046180536" expanded="true" signature="891:905" ph="..." />
+            <marker date="1503046180536" expanded="true" signature="1122:1149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvim/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvim/admin_mvim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1503649598899" expanded="true" signature="1140:1145" ph="'" />
+            <marker date="1503649598899" expanded="true" signature="1261:1761" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1307:1478" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1579:1744" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1617:1717" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2053:2105" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2363:2419" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2446:2493" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2515:2538" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4552:4877" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4605:4739" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="4801:4836" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5010:5180" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5275:5786" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5370:5759" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5447:5713" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5638:5704" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="6022:6158" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="6082:6134" ph="..." />
           </folding>
         </state>
       </provider>
@@ -373,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="66" />
-          <folding>
-            <marker date="1502682318372" expanded="true" signature="1506:1555" ph="SELECT * FRO... images" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -405,10 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,10 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,10 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,10 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -473,45 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvim/change.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-          <folding>
-            <marker date="1502673171351" expanded="true" signature="1465:1512" ph="SELECT * FRO... mvim" />
-            <marker date="1502673171351" expanded="true" signature="1758:1798" ph="UPDATE mvim " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvim/admin_mvim.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
-          <folding>
-            <marker date="1503025529155" expanded="true" signature="1077:1109" ph="SELECT * FRO... mvim" />
-            <marker date="1503025529155" expanded="true" signature="1591:1641" ph="UPDATE mvim " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding>
-            <marker date="1502255827687" expanded="true" signature="2376:2399" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/29492e62/c43dadef-b09a-465b-862b-e95ad4f0f516/db06.titles">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Administrator Login_files/jquery-1.9.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -537,9 +581,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <marker date="1502682318372" expanded="true" signature="1506:1555" ph="SELECT * FRO... images" />
+            <marker date="1503046180536" expanded="true" signature="353:398" ph="select * fro... titles" />
+            <marker date="1503046180536" expanded="true" signature="891:905" ph="..." />
+            <marker date="1503046180536" expanded="true" signature="1122:1149" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvim/admin_mvim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="827">
+          <caret line="86" column="46" lean-forward="false" selection-start-line="86" selection-start-column="46" selection-end-line="86" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvim/change.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="90" column="32" lean-forward="false" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -553,15 +620,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/title/change.php">
+    <entry file="das://table:/29492e62/c43dadef-b09a-465b-862b-e95ad4f0f516/db06.titles">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="483">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
           <folding>
-            <marker date="1503046180536" expanded="true" signature="353:398" ph="select * fro... titles" />
-            <marker date="1503046180536" expanded="true" signature="891:905" ph="..." />
-            <marker date="1503046180536" expanded="true" signature="1122:1149" ph="..." />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1503649598899" expanded="true" signature="1140:1145" ph="'" />
+            <marker date="1503649598899" expanded="true" signature="1261:1761" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1307:1478" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1579:1744" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="1617:1717" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2053:2105" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="2363:2419" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2446:2493" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="2515:2538" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4552:4877" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="4605:4739" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="4801:4836" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5010:5180" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5275:5786" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5370:5759" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="5447:5713" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="5638:5704" ph="{...}" />
+            <marker date="1503649598899" expanded="true" signature="6022:6158" ph="..." />
+            <marker date="1503649598899" expanded="true" signature="6082:6134" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Connections/DBhelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <marker date="1503649811348" expanded="true" signature="300:313" ph="SELECT * FRO... " />
+            <marker date="1503649811348" expanded="true" signature="300:314" ph="SELECT * FRO... ${$result = $this-&gt;query($sql)}" />
+            <marker date="1503649811348" expanded="true" signature="473:487" ph="SELECT * FRO... ${$table}" />
+            <marker date="1503649811348" expanded="true" signature="473:503" ph="SELECT * FRO... ${$table}" />
+            <marker date="1503649811348" expanded="true" signature="473:504" ph="SELECT * FRO... ${$table}" />
+            <marker date="1503649811348" expanded="true" signature="473:505" ph="SELECT * FRO... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Connections/db06.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
